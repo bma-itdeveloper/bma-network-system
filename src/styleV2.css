@@ -8,6 +8,17 @@
     background-repeat: no-repeat;    
 }
 
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Escala la imagen sin deformarla */
+    z-index: -1; /* Envía la imagen al fondo */
+  }
+  
+
 /*
 body{
     margin: 0px;
