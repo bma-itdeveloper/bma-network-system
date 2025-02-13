@@ -12,9 +12,9 @@
 }
 
 .loginBlockContainer{
-    height: 99vh;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 .loginBlock{
