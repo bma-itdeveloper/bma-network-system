@@ -11,6 +11,7 @@
     <title>BMA-Network</title>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/styleV2.css" />
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
   </head>
   <body>
     <div class="container-fluid">
@@ -25,20 +26,12 @@
             <!--Lado Izquierdo-->
             <div class="col-12 col-md-6 loginCardLeft">
               <div class="loginCardContainer text-center">
-                <img
-                  src="./src/assets/gralImg/candado.png"
-                  alt=""
-                  class="loginLockImg"
-                />
+                <i class="bi bi-lock-fill loginLockImg"></i>
                 <h2>Welcome Back!</h2>
                 <!--Usuario-->
                 <div class="input-group mb-3">
                   <span class="input-group-text">
-                    <img
-                      src="./src/assets/gralImg/usuario.png"
-                      alt="lock"
-                      style="height: 20px"
-                    />
+                    <i class="bi bi-envelope-fill loginBoxIco"></i>
                   </span>
                   <input
                     type="text"
@@ -50,11 +43,7 @@
                 <!--Contraseña-->
                 <div class="input-group mb-3">
                   <span class="input-group-text">
-                    <img
-                      src="./src/assets/gralImg/candado.png"
-                      alt="lock"
-                      style="height: 20px"
-                    />
+                    <i class="bi bi-lock-fill loginBoxIco"></i>
                   </span>
                   <input
                     type="password"
@@ -74,10 +63,20 @@
             <!--Lado Derecho-->
             <div class="col-12 col-md-6 loginCardRight">
               <div class="loginCardContainer text-center">
-                <img src="./src/assets/gralImg/BMA-Logo.png" alt="bma-logo" style="height: 90px;">
-                <h2><span style="color: #ffe600;">BMA</span>NETWORK<br/>SYSTEM</h2>
-                <p style="text-align: justify;">Access your portfolios through our secure, password-protected portal.<br/><br/>
-                  You can view and print status, docket, and maintenance reports and check the status of pending opposition and cancellation proceedings in the jurisdictions entrusted to our care
+                <img
+                  src="./src/assets/gralImg/BMA-Logo.png"
+                  alt="bma-logo"
+                  style="height: 90px"
+                />
+                <h2>
+                  <span style="color: #ffe600">BMA</span>NETWORK<br />SYSTEM
+                </h2>
+                <p style="text-align: justify">
+                  Access your portfolios through our secure, password-protected
+                  portal.<br /><br />
+                  You can view and print status, docket, and maintenance reports
+                  and check the status of pending opposition and cancellation
+                  proceedings in the jurisdictions entrusted to our care
                 </p>
               </div>
             </div>

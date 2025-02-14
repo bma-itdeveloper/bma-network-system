@@ -9,9 +9,13 @@
   }
 
   .loginLockImg{
-    height: 30px;
-    display: block;
-    margin: auto;
+    color: #013154;
+    font-size: 40px;
+  }
+
+  .loginBoxIco{
+    color: #013154;
+    font-size: 20px;
   }
 
   .loginTittle{
@@ -56,4 +60,7 @@
 
 .loginCardContainer{
     width: 100%;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
