@@ -14,29 +14,74 @@
   </head>
   <body>
     <div class="container-fluid">
-      <img src="https://cdn.pixabay.com/photo/2020/01/29/20/24/building-4803602_960_720.jpg 1x, https://cdn.pixabay.com/photo/2020/01/29/20/24/building-4803602_1280.jpg" alt="" class="fondo">
+      <img
+        src="https://cdn.pixabay.com/photo/2020/01/29/20/24/building-4803602_960_720.jpg 1x, https://cdn.pixabay.com/photo/2020/01/29/20/24/building-4803602_1280.jpg"
+        alt=""
+        class="bgImg"
+      />
       <div class="row loginBlockContainer">
-        <div class="loginBlock col-12">
-          <div class="loginCard">
-            <div class="loginCardLeft col-md-5 col-12">
-              <!--Password-->
-              <div class="col-auto">
-                <label for="inputPassword2" class="visually-hidden"
-                  >
-                  <svg class="bi" aria-hidden="true"><use xlink:href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=lock"></use></svg>
-                  Password:
-                  </label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="inputPassword2"
-                  placeholder="Password"
+        <div class="col-12 loginBlock">
+          <div class="row">
+            <!--Lado Izquierdo-->
+            <div class="col-12 col-md-6 loginCardLeft">
+              <div class="loginCardContainer text-center">
+                <img
+                  src="./src/assets/gralImg/candado.png"
+                  alt=""
+                  class="loginLockImg"
                 />
+                <h2>Welcome Back!</h2>
+                <!--Usuario-->
+                <div class="input-group mb-3">
+                  <span class="input-group-text">
+                    <img
+                      src="./src/assets/gralImg/usuario.png"
+                      alt="lock"
+                      style="height: 20px"
+                    />
+                  </span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Username"
+                  />
+                </div>
+                <!--CIERRE: Usuario-->
+                <!--Contraseña-->
+                <div class="input-group mb-3">
+                  <span class="input-group-text">
+                    <img
+                      src="./src/assets/gralImg/candado.png"
+                      alt="lock"
+                      style="height: 20px"
+                    />
+                  </span>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                  />
+                </div>
+                <!--CIERRE: Contraseña-->
+                <button type="submit" class="btn btn-primary">Log In</button>
+                <div>
+                  <p><u>Forgot your Password?</u></p>
+                  <p><u>Have no account yet?</u></p>
+                </div>
               </div>
-              <!--CIERRE:Password-->
             </div>
-            <div class="loginCardRight col-md-7 col-12">Contenido Derecha</div>
+            <!--CIERRE: Lado Izquierdo-->
+            <!--Lado Derecho-->
+            <div class="col-12 col-md-6 loginCardRight">
+              <div class="loginCardContainer text-center">
+                <img src="./src/assets/gralImg/BMA-Logo.png" alt="bma-logo" style="height: 90px;">
+                <h2><span style="color: #ffe600;">BMA</span>NETWORK<br/>SYSTEM</h2>
+                <p style="text-align: justify;">Access your portfolios through our secure, password-protected portal.<br/><br/>
+                  You can view and print status, docket, and maintenance reports and check the status of pending opposition and cancellation proceedings in the jurisdictions entrusted to our care
+                </p>
+              </div>
+            </div>
+            <!--CIERRE: Lado Derecho-->
           </div>
         </div>
       </div>
